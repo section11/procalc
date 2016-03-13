@@ -1,0 +1,114 @@
+<resources>
+    <string name="app_name">ProCalc</string>
+    <string name="action_settings">Settings</string>
+    <string name="hintFirstTime">8492</string>
+    <string name="submitFirstTime">Submit</string>
+    <string name="newcontinue">New/Continue case</string>
+    <string name="retrieve">Retrieve case</string>
+    <string name="selectState">Select state</string>
+    <string name="nextButton">Next</string>
+    <string name="ILDef"> <![CDATA[ <html>
+
+<body>
+   <h1>What is physical abuse?</h1>
+
+   <p>
+     <strong>
+     includes sexual abuse and means any of the following:
+            (i) knowing or reckless use of physical force,
+    confinement or restraint;
+            (ii) knowing, repeated and unnecessary sleep
+    deprivation; or
+            (iii) knowing or reckless conduct which creates an
+     immediate risk of physical harm.
+     </strong>
+   </p>
+
+
+
+
+   <h1> What is harassment? </h1>
+
+   <p>
+    means knowing conduct which is not necessary to accomplish a purpose that is reasonable under the circumstances; would cause a reasonable person emotional distress; and does cause emotional distress to the petitioner. Unless the presumption is rebutted by a preponderance of the evidence, the following types of conduct shall be presumed to cause emotional distress:
+           <strong> (i) creating a disturbance at petitioner\'s place of
+    employment or school;
+            (ii) repeatedly telephoning petitioner\'s place of
+    employment, home or residence;
+            (iii) repeatedly following petitioner about in a
+    public place or places;
+            (iv) repeatedly keeping petitioner under surveillance
+    by remaining present outside his or her home, school, place of employment, vehicle or other place occupied by petitioner or by peering in petitioner\'s windows;
+            (v) improperly concealing a minor child from
+    petitioner, repeatedly threatening to improperly remove a minor child of petitioner\'s from the jurisdiction or from the physical care of petitioner, repeatedly threatening to conceal a minor child from petitioner, or making a single such threat following an actual or attempted improper removal or concealment, unless respondent was fleeing an incident or pattern of domestic violence; or
+            (vi) threatening physical force, confinement or
+    restraint on one or more occasions.
+</strong>
+</p>
+
+
+
+<h1> What is willful deprivation? </h1>
+   <p> means wilfully denying a person who because of age, health or disability requires medication, medical care, shelter, accessible shelter or services, food, therapeutic device, or other physical assistance, and thereby exposing that person to the risk of physical, mental or emotional harm, except with regard to medical care or treatment when the dependent person has expressed an intent to forgo such medical care or treatment. This paragraph does not create any new affirmative duty to provide support to dependent persons.
+</p>
+
+
+<h1> What is intimidation of a dependent? </h1>
+   <p> means subjecting a person who is dependent because of age, health or disability to participation in or the witnessing of: physical force against another or physical confinement or restraint of another which constitutes physical abuse as defined in this Act, regardless of whether the abused person is a family or household member.
+</p>
+
+
+
+<h1> What is neglect? </h1>
+<p>
+    means the failure to exercise that degree of care toward a high-risk adult with disabilities which a reasonable person would exercise under the circumstances and includes but is not limited to:
+    <strong>        (i) the failure to take reasonable steps to protect a
+    high-risk adult with disabilities from acts of abuse;
+            (ii) the repeated, careless imposition of
+    unreasonable confinement;
+            (iii) the failure to provide food, shelter, clothing,
+    and personal hygiene to a high-risk adult with disabilities who requires such assistance;
+            (iv) the failure to provide medical and
+    rehabilitative care for the physical and mental health needs of a high-risk adult with disabilities; or
+            (v) the failure to protect a high-risk adult with
+      disabilities from health and safety hazards.
+     </strong>
+</p>
+
+<h1> What is exploitation? </h1>
+<p>
+    means the illegal, including tortious, use of a high-risk adult with disabilities or of the assets or resources of a high-risk adult with disabilities. Exploitation includes, but is not limited to, the misappropriation of assets or resources of a high-risk adult with disabilities by undue influence, by breach of a fiduciary relationship, by fraud, deception, or extortion, or the use of such assets or resources in a manner contrary to law.
+
+  </p>
+
+
+
+<h1>What is abuse?</h1>
+<p>
+   physical abuse, harassment, intimidation of a dependent, interference with personal liberty or willful deprivation but does not include reasonable direction of a minor child by a parent or person who has parent-like duties.
+
+<a href="www.ilga.gov/legislation/ilcs/ilcs5.asp?ActID=210"> Source  </a>
+
+</p>
+
+
+
+</body></html>
+]]>
+    </string>
+    <string name="who">Who</string>
+    <string name="whoHint">My husband</string>
+    <string name="when">When</string>
+    <string name="whenHint">01.01.2015</string>
+    <string name="where">Where</string>
+    <string name="whereHint">In the garage</string>
+    <string name="what">Describe what has happened</string>
+    <string name="addPhoto">Add Photo</string>
+    <string name="addAllegation">Save Allegation</string>
+    <string-array name="states_array">
+        <item>AL</item>
+        <item>IL</item>
+    </string-array>
+
+
+</resources>
