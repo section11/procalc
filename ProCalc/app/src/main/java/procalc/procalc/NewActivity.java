@@ -29,7 +29,6 @@ import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
 import java.io.ByteArrayOutputStream;
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -122,7 +121,7 @@ public class NewActivity extends Activity {
                 ArrayList<List<Byte>> bitmapBytes = new ArrayList<List<Byte>>();
                 ArrayList<String> base64s = new ArrayList<String>();
                 String b64;
-                for (int i = 0; i < mArrayUri.size();i++){
+                /*for (int i = 0; i < mArrayUri.size();i++){
 
                     Bitmap bm = null;
                     try {
@@ -157,8 +156,9 @@ public class NewActivity extends Activity {
                     } catch (FileNotFoundException e) {
                         e.printStackTrace();
                     }
-                    */
+
                 }
+                */
                 Allegation allegation = new Allegation(who, when, where, what, base64s);
                 SharedPreferences preferences = getSharedPreferences("allegation", Context.MODE_PRIVATE);
                 Gson gson = new Gson();

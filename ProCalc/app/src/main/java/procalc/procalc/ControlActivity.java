@@ -34,7 +34,8 @@ public class ControlActivity extends Activity {
         retrieveButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent intent = new Intent(context, RetrieveActivity.class);
+                startActivity(intent);
             }
         });
     }

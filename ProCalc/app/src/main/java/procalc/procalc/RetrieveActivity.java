@@ -14,6 +14,7 @@ import com.google.gson.reflect.TypeToken;
  */
 public class RetrieveActivity extends Activity {
     private Allegation allegation;
+    private TextView whoTextView, whenTextView, whereTextView, whatTextview;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -32,8 +33,15 @@ public class RetrieveActivity extends Activity {
 
         }else {
             setContentView(R.layout.retrieveallegation);
-            TextView whoTextView = (TextView) findViewById(R.id.whoTextView);
-            whoTextView.setText(allegation.getWho());
+            whoTextView = (TextView) findViewById(R.id.whoTextView);
+            whereTextView = (TextView) findViewById(R.id.whereTextview);
+            whenTextView = (TextView) findViewById(R.id.whenTextview);
+            whatTextview = (TextView) findViewById(R.id.whatTextview);
+
+            whoTextView.setText("Who: " + allegation.getWho());
+            whereTextView.setText("Where " + allegation.getWhere());
+            whenTextView.setText("When: " + allegation.getWhen());
+            whatTextview.setText("What: " + allegation.getWhat());
         }
     }
 }
